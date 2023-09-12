@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "/root/LeoCode/dotnet/framework/LeoCode/LeoCode.csproj": {}
+  },
+  "projects": {
+    "/root/LeoCode/dotnet/framework/LeoCode/LeoCode.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/root/LeoCode/dotnet/framework/LeoCode/LeoCode.csproj",
+        "projectName": "LeoCode",
+        "projectPath": "/root/LeoCode/dotnet/framework/LeoCode/LeoCode.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/root/LeoCode/dotnet/framework/LeoCode/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Furion.Pure": {
+              "target": "Package",
+              "version": "[4.8.8.42, )"
+            },
+            "SqlSugarCore": {
+              "target": "Package",
+              "version": "[5.1.4.105, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
